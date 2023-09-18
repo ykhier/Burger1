@@ -89,8 +89,31 @@ button {
     }
 /* Media query for screens smaller than 600px (typical mobile screens) */
 @media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 12px;
+    }
+
     button {
-        padding: 15px 20px; /* Adjust padding for smaller screens */
-        font-size: 16px; /* Adjust font size for smaller screens */
+        padding: 12px 18px;
+        font-size: 16px;
     }
 }
