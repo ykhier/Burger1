@@ -110,10 +110,12 @@ button {
     input[type="email"],
     textarea {
         font-size: 12px;
+        margin:0;
     }
 
     button {
         padding: 12px 18px;
         font-size: 16px;
+        background-color:red;
     }
 }
